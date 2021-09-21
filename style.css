@@ -58,6 +58,7 @@ body.wrong {
   border-radius: 10px;
   padding: 5px 10px;
   outline: none;
+  background-color: #fff;
 }
 
 .btn.correct {
