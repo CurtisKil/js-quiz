@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-header {
+/* header {
   margin-left: 10px;
   margin-top: 10px;
   font-size: 24px;
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 body {
   background-color: rgb(6, 23, 77);
@@ -27,10 +27,18 @@ body {
   padding: 0;
 }
 
+body.correct {
+  background-color: green;
+}
+
+body.wrong {
+  background-color: red;
+}
+
 .container {
   background-color: rgb(10, 71, 168);
   margin: 0;
-  width: 700px;
+  width: 600px;
   height: 40vh;
   padding: 15px;
   max-width: 80%;
@@ -50,6 +58,14 @@ body {
   border-radius: 10px;
   padding: 5px 10px;
   outline: none;
+}
+
+.btn.correct {
+  background-color: green;
+}
+
+.btn.wrong {
+  background-color: red;
 }
 
 .btn:hover {
@@ -87,3 +103,8 @@ p {
 }
 
 /* Media Queries */
+@media screen and (max-width: 375px) {
+  .container {
+    height: 75%;
+  }
+}
