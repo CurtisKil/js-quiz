@@ -93,8 +93,13 @@ const questions = [
   {
     question: "What is scope?",
     answers: [
-      { text: "Where a variable can be accessed", correct: true },
       { text: "The aiming device on a gun", correct: false },
+      { text: "Where a variable can be accessed", correct: true },
+      {
+        text: "A technique for targeting an element in the DOM",
+        correct: false,
+      },
+      { text: "A type of JavaScript function", correct: false },
     ],
   },
   {
@@ -134,17 +139,26 @@ const questions = [
         text: "Number, letter, division, string, null, undeclared, integer",
         correct: false,
       },
+    ],
+  },
+  {
+    question: "What is an API?",
+    answers: [
       {
-        question: "What is the 'this' keyword?",
-        answers: [
-          { text: "This refers to that", correct: false },
-          { text: "This refers to the function it belongs to", correct: false },
-          {
-            text: "This refers to the object that is belongs to",
-            correct: true,
-          },
-          { text: "This is confusing", correct: false },
-        ],
+        text: "Small units of independent, reusable code that are used as the building blocks for creating a JavaScript application  ",
+        correct: false,
+      },
+      {
+        text: "The combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)",
+        correct: false,
+      },
+      {
+        text: "A medium to fetch or send data between interfaces",
+        correct: true,
+      },
+      {
+        text: "a way of storing data that can be changed later on",
+        correct: false,
       },
     ],
   },
