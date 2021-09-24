@@ -30,17 +30,23 @@ body.wrong {
   background-color: rgb(10, 71, 168);
   margin: 0;
   width: 600px;
-  height: 40vh;
+  height: 50vh;
   padding: 15px;
   max-width: 80%;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgb(255, 255, 255);
 }
 
+#question {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 26px;
+}
+
 .answer-btns {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 12px;
+  gap: 18px;
   margin: 20px 0;
 }
 
